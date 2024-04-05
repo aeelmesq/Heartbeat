@@ -1,0 +1,22 @@
+
+
+/*Header*/
+.header {
+    background-color: rgb(212, 82, 82);
+    height: 6em;
+}
+
+
+
+/*Main*/
+main img {
+    width: 10em;
+}
+
+
+
+/*Footer*/
+.footer {
+    background-color: rgb(212, 82, 82);
+    height: 3em;
+}

@@ -18,22 +18,29 @@ body {
     color: red;
     margin: 20px 0;
 }
+
+/* Botões */
 .nav {
     margin: 6em;
 }
+.nav-link {
+    font-size: 1.5em;
+    color: white;
+}
+.nav-link:hover {
+    color: pink;
+}
 .nav-item {
-    margin: 0 30px;
+    margin: 0 20px;
 }
 .btn-active {
     background-color: red;
     border-radius: 30px;
-    color: white;
     padding: 10px 30px;
 }
 .btn {
     border: 1px solid red;
     border-radius: 30px;
-    color: white;
     padding: 10px 30px;
 }
 

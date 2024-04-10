@@ -1,4 +1,6 @@
-
+body {
+    background-color: black;
+}
 
 /*Header*/
 .header {
@@ -9,8 +11,30 @@
 
 
 /*Main*/
-main img {
+.img {
     width: 10em;
+}
+.title {
+    color: red;
+    margin: 20px 0;
+}
+.nav {
+    margin: 6em;
+}
+.nav-item {
+    margin: 0 30px;
+}
+.btn-active {
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
+}
+.btn {
+    border: 1px solid red;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
 }
 
 

@@ -1,8 +1,26 @@
+/*Formatação dos botões*/
 .btn {
+    font-size: 1.5em;
+    color: white;
+    border: 2px solid #a71a1d;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.btn:hover {
+    color: pink;
     border: 2px solid red;
     border-radius: 30px;
     padding: 10px 30px;
 }
+
+
+
+/*Formatação dos botões grandes*/
 .btn-lg {
     color: white;
+    position: relative;
+    left: 25%;
+}
+.btn-lg:hover {
+    color: pink;
 }

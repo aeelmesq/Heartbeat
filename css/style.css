@@ -4,7 +4,7 @@ body {
 
 /*Header*/
 .header {
-    background-color: rgb(212, 82, 82);
+    background-color: #a71a1d;
     height: 6em;
 }
 
@@ -15,7 +15,7 @@ body {
     width: 10em;
 }
 .title {
-    color: red;
+    color: #a71a1d;
     margin: 20px 0;
 }
 
@@ -23,18 +23,11 @@ body {
 .nav {
     margin: 6em;
 }
-.nav-link {
-    font-size: 1.5em;
-    color: white;
-}
-.nav-link:hover {
-    color: pink;
-}
 .nav-item {
     margin: 0 20px;
 }
 .btn-active {
-    background-color: red;
+    background-color: #a71a1d;
     border-radius: 30px;
     padding: 10px 30px;
 }
@@ -44,6 +37,6 @@ body {
 
 /*Footer*/
 .footer {
-    background-color: rgb(212, 82, 82);
+    background-color: #a71a1d;
     height: 3em;
 }

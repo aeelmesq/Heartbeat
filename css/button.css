@@ -1,0 +1,8 @@
+.btn {
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.btn-lg {
+    color: white;
+}

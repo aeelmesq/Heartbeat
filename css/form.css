@@ -1,0 +1,21 @@
+.form {
+    width: 800px;
+}
+
+
+.form input:placeholder-shown /*Representa o elemento quando ele estiver sendo exibido*/ {
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 20px;
+    color: white;
+}
+.form input:not(:placeholder-shown) /*Esse é o contrário*/ {
+    color: white;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.form label {
+    color: white;
+}

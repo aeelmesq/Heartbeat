@@ -12,6 +12,7 @@
     border-radius: 30px;
     padding: 10px 30px;
 }
+<<<<<<< Updated upstream
 
 
 
@@ -23,4 +24,10 @@
 }
 .btn-lg:hover {
     color: pink;
+=======
+.btn-active {
+    background-color: #a71a1d;
+    border-radius: 30px;
+    padding: 10px 30px;
+>>>>>>> Stashed changes
 }

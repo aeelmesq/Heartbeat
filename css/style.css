@@ -5,18 +5,30 @@ body {
 /*Header*/
 .header {
     background-color: #a71a1d;
-    height: 6em;
+    height: 4em;
 }
 
 
 
 /*Main*/
+.main {
+    top: 45%;
+}
 .img {
     width: 10em;
 }
 .title {
     color: #a71a1d;
     margin: 20px 0;
+    font-size: 38pt;
+}
+.title_sec {
+    font-size: 16pt;
+    color: white;
+}
+.text {
+    color: white;
+    font-size: 11pt;
 }
 
 /* Botões */
@@ -35,8 +47,31 @@ body {
 
 
 
+<<<<<<< Updated upstream
 /*Footer*/
 .footer {
     background-color: #a71a1d;
     height: 3em;
+=======
+/* Links */
+.link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.link:hover {
+    color: pink;
+}
+
+
+
+/*Footer*/
+.footer {
+    width: 100%;
+    background-color: #a71a1d;
+}
+.footer div a {
+    text-underline-offset: auto;
+    text-decoration: underline auto white ;
+>>>>>>> Stashed changes
 }

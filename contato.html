@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartbeat</title>
+    <!--Linkagem FontAwesome-->
+    <script src="https://kit.fontawesome.com/2efdade96f.js" crossorigin="anonymous"></script>
+
+    <!--Linkagem Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Linkagem CSS-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/stylec.css" rel="stylesheet">
+    <style>
+        .campo {
+            width: 60%;
+            margin: 2px auto;
+            color: white;
+            padding: 5px;
+        }
+
+        .barra {
+            border: 2px solid rgb(109, 17, 19);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header"></div>
+    </header>
+
+    <main>
+        <div class="text-center mt-5">
+            <img src="src/heart.png" class="img-fluid img" alt="Imagem responsiva"><br>
+            <h1 class="title" style="color: white;">CONTATE-NOS</h1>
+        </div>
+
+        <section class="d-flex flex-column">
+            <div class="w-50 campo">
+                <a href="#" class="d-flex align-items-center barra link">
+                    <i class="fa-brands fa-whatsapp mx-3 my-2" style="font-size: 28px;"></i>
+                    <label>Whatsapp</label>
+                </a>
+            </div>
+            <div class="w-50 campo">
+                <a href="#" class="d-flex align-items-center barra link">
+                    <i class="fa-brands fa-instagram mx-3 my-2" style="font-size: 28px;"></i>
+                    <label>Instagram</label>
+                </a>
+            </div>
+            <div class="w-50 campo">
+                <a href="#" class="d-flex align-items-center barra link">
+                    <i class="fa-brands fa-facebook mx-3 my-2" style="font-size: 28px;"></i>
+                    <label>Facebook</label>
+                </a>
+            </div>
+            <div class="w-50 campo">
+                <a href="#" class="d-flex align-items-center barra link">
+                    <i class="fa-regular fa-envelope mx-3 my-2" style="font-size: 28px;"></i>
+                    <label>E-mail</label>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="fixed-bottom">
+        <section class="footer d-inline-flex justify-content-center text-center">
+            <div class="mx-4 my-2 d-flex flex-column">
+                <h2 class="title_sec">EMPRESA</h2>
+                <a class="link text">Sobre</a>
+                <a class="link text">Contate-nos</a>
+            </div>
+
+            <div class="mx-4 my-2 d-flex flex-column">
+                <h2 class="title_sec">SUPORTE</h2>
+                <a class="link text">Ajuda</a>
+                <a class="link text">Política de privacidade</a>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

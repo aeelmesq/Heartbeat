@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,37 +11,50 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/button.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="header"></div>
     </header>
 
-    <main>
-        <div class="position-absolute top-50 start-50 translate-middle">
+    <main class="text-center position-absolute top-50 start-50 translate-middle">
+        <section>
             <div class="text-center">
                 <img src="src/heart.png" class="img-fluid img" alt="Imagem responsiva">
                 <h1 class="title">HEARTBEAT</h1>
             </div>
-    
+
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                  <a class="btn btn-active" href="#">Logar</a>
+                    <a class="btn btn-active" href="#">Logar</a>
                 </li>
                 <li class="nav-item">
-                  <a class="btn" href="#">Criar</a>
+                    <a class="btn" href="#">Criar</a>
                 </li>
             </ul>
-        </div>
-        
+        </section>
+
     </main>
 
-    <footer>
-        <div class="fixed-bottom">
-            <div class="text-center">
-                <p class="text-white">Ao continuar, você concorda<br> com os <a href="#" class="text-white">Termos de Segurança</a> e confirma que leu<br> a nossa <a href="#" class="text-white">Política de Privacidade</a></p>
-            </div>
-            <div class="footer">...</div>
+    <footer class="fixed-bottom">
+        <div class="text text-center">
+            <p>Ao continuar, você concorda<br> com os <a href="#" class="text-white">Termos de Segurança</a> e confirma que leu<br> a nossa <a href="#" class="text-white">Política de Privacidade</a></p>
         </div>
+
+        <section class="footer d-inline-flex justify-content-center text-center">
+            <div class="mx-4 my-2 d-flex flex-column">
+                <h2 class="title_sec">EMPRESA</h2>
+                <a class="link text">Sobre</a>
+                <a class="link text">Contate-nos</a>
+            </div>
+
+            <div class="mx-4 my-2 d-flex flex-column">
+                <h2 class="title_sec">SUPORTE</h2>
+                <a class="link text">Ajuda</a>
+                <a class="link text">Política de privacidade</a>
+            </div>
+        </section>
     </footer>
 </body>
+
 </html>

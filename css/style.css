@@ -76,3 +76,15 @@ body {
 .icon {
     font-size: 1.8em;
 }
+.background-image {
+    background-image: url(../src/background-vinil.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.menu-playlist {
+    width: 100px;
+    background-color: gray;
+}

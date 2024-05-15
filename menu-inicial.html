@@ -17,52 +17,63 @@
 
 </head>
 
-<body>
-  <header>
-    <div class="d-inline-block text w-100 p-3">
-      <div class="d-flex align-items-center float-start">
-        <img class="logo" src="src/heart.png">
-        <span class="title-sec ms-4">Bem-vinda(o) ...</span>
-      </div>
+<body style="padding: 20px;">
+  <header class="sticky-top">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-brand">
+          <a href="#"><img class="d-inline-block align-text-top" src="src/heart.png" width="70px" height="68px"></a>
+          <span class="title-sec ms-4">Bem-vinda(o) ...</span>
+        </div>
 
-      <div style="font-size: 1.6em;" class="float-end">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <a href="#" class="link"><i class="fa-solid fa-user"></i></a>
+        <div class=" navbar-brand">
+          <a href="#" class="link me-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="#" class="link"><i class="fa-solid fa-user"></i></a>
+        </div>
       </div>
-    </div>
-
-    <section>
-      <ul class="nav justify-content-center text d-flex">
-        <li class="nav-item mx-4">
-          <a href="#" class="link d-grid justify-content-center text-center">
-            <i class="fa-solid fa-house icon"></i>
-            <span class="text-icon">Início</span>
-          </a>
-        </li>
-        <li class="nav-item mx-4">
-          <a href="#" class="link d-grid justify-content-center text-center">
-            <i class="fa-solid fa-compass icon"></i>
-            <span class="text-icon">Explorar</span>
-          </a>
-        </li>
-        <li class="nav-item mx-4">
-          <a href="#" class="link d-grid justify-content-center text-center">
-            <i class="fa-solid fa-music icon"></i>
-            <span class="text-icon">Biblioteca</span>
-          </a>
-        </li>
-        <li class="nav-item mx-4">
-          <a href="#" class="link d-grid justify-content-center text-center">
-            <i class="fa-solid fa-heart icon"></i>
-            <span class="text-icon">Curtidos</span>
-          </a>
-        </li>
-      </ul>
-    </section>
+    </nav>
   </header>
 
-  <main>
+  <section>
+    <ul class="nav justify-content-center text d-flex">
+      <li class="nav-item mx-4">
+        <a href="#" class="link d-grid justify-content-center text-center">
+          <i class="fa-solid fa-house icon"></i>
+          <span class="text-icon">Início</span>
+        </a>
+      </li>
+      <li class="nav-item mx-4">
+        <a href="#" class="link d-grid justify-content-center text-center">
+          <i class="fa-solid fa-compass icon"></i>
+          <span class="text-icon">Explorar</span>
+        </a>
+      </li>
+      <li class="nav-item mx-4">
+        <a href="#" class="link d-grid justify-content-center text-center">
+          <i class="fa-solid fa-music icon"></i>
+          <span class="text-icon">Biblioteca</span>
+        </a>
+      </li>
+      <li class="nav-item mx-4">
+        <a href="#" class="link d-grid justify-content-center text-center">
+          <i class="fa-solid fa-heart icon"></i>
+          <span class="text-icon">Curtidos</span>
+        </a>
+      </li>
+    </ul>
+  </section>
 
+  <main>
+    <h1 class="title h1">Comece já</h1>
+    <div class="background-image m-2">
+      <div class="menu-playlist rounded w-25 h-50 position-absolute top-50 start-50 translate-middle">
+        <p>Monte sua playlist!</p>
+        <i class="fa-solid fa-circle-play"></i>
+        <div>
+
+        </div>
+      </div>
+    </div>
   </main>
 
   <footer>

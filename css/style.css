@@ -84,7 +84,6 @@ body {
     background-size: cover;
     position: relative;
 }
-.menu-playlist {
-    width: 100px;
-    background-color: gray;
+.menu-color-border {
+    border-color: purple;
 }
